@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #990d00; /* Rood */
+    padding: 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Zorgt ervoor dat <h1> en <p> verticaal worden geplaatst */
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Zorgt ervoor dat de content in het midden staat */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #ddd; /* Lichtgrijze kleur voor de paragraaf */
+    margin-top: 0.5rem;
+}
+
+
+.footer {
+    background-color: #990d00;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.youtube-button {
+    background-color: #990d00;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+    transition: background-color 0.3s;
+}
