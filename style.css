@@ -15,19 +15,21 @@ body {
     overflow-y: auto; /* Zorg dat je kunt scrollen in de navbar */
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
-    
+}
+
+.navbar a:last-child {
+    margin-bottom: 3rem;
 }
 
 .navbar a {
     padding: 20px;
+    padding-bottom: 20px;
     text-align: left;
     text-decoration: none;
     color: white;
     display: block;
     font-size: 18px;
     transition: background-color 0.3s;
-
 }
 
 .navbar a:hover {
@@ -35,9 +37,11 @@ body {
 }
 
 .content {
-    margin-left: 250px; /* Ruimte voor de navbar */
+    margin-left: 250px; 
     padding: 40px;
     width: calc(100% - 250px);
+  
+
 }
 
 .map {
